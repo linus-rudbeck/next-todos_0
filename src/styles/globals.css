@@ -1,0 +1,44 @@
+:root {
+  --max-width: 980px;
+  --border-radius: 8px;
+  --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
+    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
+    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+
+  --primary-bg: #f8f8f8; /* Bakgrund */
+  --primary-color: #333; /* Textfärg */
+
+  --secondary-bg: #333; /* Bakgrund */
+  --secondary-color: #f8f8f8; /* Textfärg */
+
+  --input-spacing: 0.5rem;
+  --input-border: 1px solid #ccc;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+a {
+  color: blue;
+}
+
+a:hover {
+  color: red;
+}
+
+h2, h3, p, ul{
+  margin-bottom: 0.8rem;
+}
+
+ul{
+  padding-left: 1.5rem;
+}

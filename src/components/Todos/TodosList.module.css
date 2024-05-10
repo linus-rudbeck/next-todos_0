@@ -1,0 +1,24 @@
+@counter-style checkbox-emoji {
+    system: cyclic;
+    symbols: "✅";
+    suffix: " ";
+}
+
+@counter-style cross-emoji {
+    system: cyclic;
+    symbols: "❌";
+    suffix: " ";
+}
+
+.todosList{
+    list-style-type: cross-emoji;
+    padding-left: 2rem;
+}
+
+.todosList li{
+    margin-bottom: 0.5rem;
+}
+
+.todosList li.done{
+    list-style: checkbox-emoji;
+}
